@@ -4,15 +4,15 @@ public class BookDisplay
 	private String title;
 	private String author;
 	private String edition;
-	private String category;
+	
 
-	public BookDisplay(String iSBN, String title, String author, String edition, String categories) 
+	public BookDisplay(String iSBN, String title, String author, String edition) 
 	{
 		this.ISBN = iSBN;
 		this.title = title;
 		this.author = author;
 		this.edition = edition;
-		this.category = category;
+	
 	}
 	public String getISBN() 
 	{
@@ -47,14 +47,7 @@ public class BookDisplay
 		this.edition = edition;
 	}
 	
-		public void setcategory(String category) 
-			{
-				this.category = category;
-			}
-			public String getcategory() {
-				
-				return category;
-			}
+		
 			
 	/* This method will display the book details in Console as entered by user*/
 	
