@@ -6,7 +6,7 @@ public class MainInformation
 	{
 	 /*Allow user to input the Book details */
 
-		System.out.println("Enter the ISBN : ");
+		System.out.println("Enter the ISBN number : ");
 		scanner =new Scanner(System.in);
 		String strISBN=scanner.next();
 		System.out.println("Enter the Book title : ");
