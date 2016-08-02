@@ -12,6 +12,7 @@ public class MainInformation
 		System.out.println("Enter the Book title : ");
 		String strBook=scanner.next();
 		System.out.println("Enter the Author : ");
+
 		String strAuthor=scanner.next();
 		System.out.println("Enter the Book Edition : ");
 		String strEdition=scanner.next();
