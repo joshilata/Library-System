@@ -57,6 +57,7 @@ public class BookDisplay
 		System.out.println("Title of Book is : "+title);
 		System.out.println("Author of Book is: "+author);
 		System.out.println("Edition of Book is : "+edition);
+		System.out.println();
 			
 	}
 }
